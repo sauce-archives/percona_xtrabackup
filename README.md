@@ -7,7 +7,7 @@
 
 [![Project Stats](https://www.openhub.net/p/saucelabs-ansible-percona_xtrabackup/widgets/project_thin_badge.gif)](https://www.openhub.net/p/saucelabs-ansible-percona_xtrabackup/)
 
-Ansible role to setup the [Percona xtrabackup for MySQL](https://www.percona.com/software/mysql-tools/percona-xtrabackup).
+Ansible role to install [Percona xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup).
 
 
 ## Tests
@@ -94,7 +94,7 @@ $ vagrant ssh trusty64.vagrant.dev
 
 ## Links
 
-- [Percona xtrabackup for MySQL](https://www.percona.com/software/mysql-tools/percona-xtrabackup)
+- [Percona xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
 
 
 ## Author Information
