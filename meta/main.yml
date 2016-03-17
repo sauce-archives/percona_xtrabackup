@@ -1,0 +1,19 @@
+---
+# file: percona_xtrabackup/meta/main.yml
+#
+# meta file
+#
+galaxy_info:
+  author: Pedro Salgado
+  description: Role to setup the Percona xtrabackup tool.
+  company: saucelabs.com
+  license: BSD
+  min_ansible_version: 1.9.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+  galaxy_tags:
+    - database
+dependencies:
+  - saucelabs-ansible.percona_apt

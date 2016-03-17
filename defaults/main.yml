@@ -1,0 +1,7 @@
+---
+# file: percona_xtrabackup/defaults/main.yml
+#
+# defaults file
+#
+
+percona_xtrabackup_version: '*'

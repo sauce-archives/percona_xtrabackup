@@ -1,0 +1,11 @@
+---
+# file: tasks/installation.yml
+#
+# installation tasks.
+#
+
+- name: installation | ensure percona-xtrabackup is installed
+  apt:
+    name="percona-xtrabackup={{ percona_xtrabackup_version }}"
+    state=present
+  sudo: yes

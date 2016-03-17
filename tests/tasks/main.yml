@@ -1,0 +1,8 @@
+---
+# file: percona_xtrabackup/tests/tasks
+#
+# test role execution.
+#
+
+- include: installation.yml
+  tags: installation
